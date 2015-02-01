@@ -70,7 +70,7 @@
   },
   "main": "./out/lib/projectz.js",
   "scripts": {
-    "test": "node ./out/test/compile-test.js",
+    "test": "node ./out/test/compile-test.js && node ./out/test/dependencies-test.js",
     "start": "node ./node_modules/coffee-script/bin/cake watch"
   },
   "bin": {

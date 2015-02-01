@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bower-dependency-1": "version",
+    "bower-dependency-2": "version"
+  },
+  "devDependencies": {
+    "bower-dev-dependency-1": "version",
+    "bower-dev-dependency-2": "version"
+  }
+}
