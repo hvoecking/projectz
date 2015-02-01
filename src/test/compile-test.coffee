@@ -10,9 +10,9 @@ fs = require('fs')
 
 # Paths
 projectzPath = pathUtil.join(__dirname, '..', '..')
-testPath     = pathUtil.join(projectzPath, 'test')
-srcPath      = pathUtil.join(projectzPath, 'test', 'src')
-expectPath   = pathUtil.join(projectzPath, 'test', 'out-expected')
+testPath     = pathUtil.join(projectzPath, 'tests', 'compile-test')
+srcPath      = pathUtil.join(projectzPath, 'tests', 'compile-test', 'src')
+expectPath   = pathUtil.join(projectzPath, 'tests', 'compile-test', 'out-expected')
 cliPath      = pathUtil.join(projectzPath, 'bin', 'projectz')
 
 # -------------------------------------
